@@ -74,13 +74,13 @@ function FormAnalytic () {
                     ? 
                     <div className="d-flex  justify-content-center">
                         <div className="text-justify">
-                            <h3 className="text-justify">El paciente no es adecuado para recibir pruebas clínicas de cancer.</h3>            
+                            <h3 className="text-justify">El paciente es adecuado para recibir pruebas clínicas de cancer.</h3>            
                         </div>
                     </div>
                     :
                     
                 <div className="d-flex flex-column">
-                    <h3 className="center">El paciente es adecuado para recibir pruebas clínicas de cancer.</h3> 
+                    <h3 className="center">El paciente no es adecuado para recibir pruebas clínicas de cancer.</h3> 
                 </div>)
             }
         </div>
